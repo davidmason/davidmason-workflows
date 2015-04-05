@@ -1,0 +1,30 @@
+{
+  "name": "davidmason-workflows",
+  "version": "1.0.0",
+  "description": "A bespoke script to capture the personal workflows I use, so that I don't have to remember them all.",
+  "main": "index.js",
+  "bin": {
+    "davidmason-workflows": "index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidmason/davidmason-workflows.git"
+  },
+  "author": "http://github.com/davidmason",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidmason/davidmason-workflows/issues"
+  },
+  "homepage": "https://github.com/davidmason/davidmason-workflows",
+  "dependencies": {
+    "simple-subprocess": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.1",
+    "should": "^5.2.0"
+  }
+}
